@@ -16,13 +16,18 @@
   </header>
 
   <section class="relative">
-    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza Banner" class="w-full h-64 object-cover transform scale-60">
-    <div class="absolute inset-0 bg-black-600 bg-opacity-50 flex flex-col justify-center items-center text-center">
-      <h2 class="text-3xl md:text-4xl text-white font-bold mb-4">Delicious Pizza, Freshly Baked</h2>
-      <p class="text-white mb-6">Experience the taste of authentic pizza made with love.</p>
-      <a href="#" class="bg-red-500 text-white px-4 py-2 rounded-md font-medium hover:bg-red-600">Order Now</a>
+    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+         alt="Pizza Banner" 
+         class="w-full h-[350px] object-cover">
+    
+    <!-- Overlay container -->
+    <div class="absolute ml-[400px] p-[70px] mt-[60px] inset-0 bg-black/30 backdrop-blur-sm w-[500px] h-[250px] flex flex-col justify-center items-center text-center rounded-2xl">
+        <h1 class=" text-sm md:text-3xl text-white font-bold mb-4">Delicious Pizza, Freshly Baked</h1>
+        <p class="relative text-white mb-6">Experience the taste of authentic pizza made with love.</p>
+        <a href="#" class="relative bg-red-500 text-white px-4 py-2 rounded-md font-medium hover:bg-red-600">Order Now</a>
     </div>
-  </section>
+</section>
+
 
 
   <section class="bg-white py-12 px-6">
@@ -47,22 +52,22 @@
       <h2 class="text-3xl font-bold mb-8">Types of Pizza</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         <!-- Pizza Cards -->
-        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl">
+        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl cursor-pointer">
           <img src="https://images.pexels.com/photos/16890470/pexels-photo-16890470/free-photo-of-pizza-on-a-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Margherita Pizza" class="rounded-md w-full h-32 object-cover mb-4">
           <h3 class="text-lg font-bold mb-2">Margherita Pizza</h3>
           <p>A classic pizza with fresh tomatoes, mozzarella, basil, and a drizzle of olive oil.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl">
+        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl cursor-pointer">
           <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pepperoni Pizza" class="rounded-md w-full h-32 object-cover mb-4">
           <h3 class="text-lg font-bold mb-2">Pepperoni Pizza</h3>
           <p>A crowd favorite topped with spicy pepperoni and melting mozzarella cheese.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl">
+        <div class="bg-white rounded-lg shadow-md p-4 hover:-translate-y-1 hover:scale-200 duration-300 hover:shadow-2xl cursor-pointer">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjP7OwuFpItJO5YQ9T99HwbutMhn3xhd0S-Q&s" alt="BBQ Chicken Pizza" class="rounded-md w-full h-32 object-cover mb-4">
           <h3 class="text-lg font-bold mb-2">BBQ Chicken Pizza</h3>
           <p>Savory barbecue sauce, tender chicken pieces, red onions, and fresh cilantro.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-md p-4  hover:-translate-y-1 hover:scale-100 duration-300 hover:shadow-2xl">
+        <div class="bg-white rounded-lg shadow-md p-4  hover:-translate-y-1 hover:scale-100 duration-300 hover:shadow-2xl cursor-pointer">
           <img src="https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Veggie Pizza" class="rounded-md w-full h-32 object-cover mb-4">
           <h3 class="text-lg font-bold mb-2">Veggie Pizza</h3>
           <p>Loaded with fresh veggies like bell peppers, onions, olives, and mushrooms.</p>
